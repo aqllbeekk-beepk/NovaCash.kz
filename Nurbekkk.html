@@ -3,9 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CashFlow.kz</title>
 
-  <!-- Google AdSense SCRIPT (HEAD ішінде 1 рет) -->
+  <title>NovaCash</title>
+
+  <!-- 🔥 Google AdSense account meta -->
+  <meta name="google-adsense-account" content="ca-pub-4430196597845032">
+
+  <!-- 🔥 Google AdSense script -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4430196597845032"
      crossorigin="anonymous"></script>
 
@@ -15,14 +19,15 @@
       font-family: Arial, sans-serif;
       background: linear-gradient(120deg, #ffffff, #e6f7ff);
       color: #222;
+      line-height: 1.6;
     }
 
     header {
       background: #00bcd4;
       color: white;
-      padding: 40px;
+      padding: 50px;
       text-align: center;
-      font-size: 32px;
+      font-size: 36px;
       font-weight: bold;
     }
 
@@ -32,6 +37,7 @@
       gap: 20px;
       background: #f5f5f5;
       padding: 15px;
+      flex-wrap: wrap;
     }
 
     nav a {
@@ -52,7 +58,7 @@
 
     .card {
       background: white;
-      padding: 20px;
+      padding: 25px;
       margin-bottom: 20px;
       border-radius: 12px;
       box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -75,13 +81,14 @@
 <body>
 
 <header>
-  💰 CashFlow.kz
+  🚀 NovaCash — Ақша және Бизнес Әлемі
 </header>
 
 <nav>
   <a href="#home">Басты бет</a>
   <a href="#about">Туралы</a>
   <a href="#money">Ақша табу</a>
+  <a href="#business">Бизнес</a>
   <a href="#contact">Байланыс</a>
 </nav>
 
@@ -90,8 +97,40 @@
   <div class="card" id="home">
     <h2>Қош келдің!</h2>
     <p>
-      CashFlow.kz — ақша табу, қаржы және бизнес туралы білім беретін сайт.
-      Мұнда сен онлайн табыс, инвестиция және қаржылық ойлау туралы үйренесің.
+      NovaCash сайтына қош келдің! Бұл платформа сенің қаржылық біліміңді көтеруге және
+      онлайн табыс табу жолдарын үйренуге арналған.
+      Мұнда сен бизнес, инвестиция және ақша айналымы туралы нақты және түсінікті ақпарат аласың.
+      Біздің мақсат — адамдарға қаржылық еркіндікке жетуге көмектесу.
+    </p>
+  </div>
+
+  <div class="card" id="about">
+    <h2>Біз туралы</h2>
+    <p>
+      NovaCash — бұл заманауи қаржылық білім платформасы.
+      Біз қарапайым тілмен күрделі қаржы тақырыптарын түсіндіреміз.
+      Бұл жерде сен тек теория емес, нақты өмірде қолдануға болатын білім аласың.
+      Онлайн табыс, фриланс, инвестиция және бизнес бастау туралы толық ақпарат беріледі.
+    </p>
+  </div>
+
+  <div class="card" id="money">
+    <h2>Ақша табу жолдары</h2>
+    <p>
+      Қазіргі уақытта интернет арқылы ақша табудың көптеген жолдары бар.
+      Мысалы: фриланс, YouTube, TikTok, блог жүргізу, интернет дүкен ашу.
+      NovaCash осының бәрін қарапайым тілмен түсіндіреді.
+      Ең бастысы — дұрыс стратегия және тұрақты еңбек.
+    </p>
+  </div>
+
+  <div class="card" id="business">
+    <h2>Бизнес идеялар</h2>
+    <p>
+      Бизнес бастау үшін үлкен ақша міндетті емес.
+      Кішкентай идеядан үлкен жоба жасауға болады.
+      NovaCash саған стартап идеялар, нарық анализ және бизнес жоспар құруды үйретеді.
+      Ең маңыздысы — қорықпау және бастау.
     </p>
   </div>
 
@@ -111,29 +150,18 @@
     </script>
   </div>
 
-  <div class="card" id="about">
-    <h2>Туралы</h2>
-    <p>
-      Бұл сайт адамдарға ақша табу жолдарын түсіндіреді және қаржылық білім береді.
-    </p>
-  </div>
-
-  <div class="card" id="money">
-    <h2>Ақша табу</h2>
-    <p>
-      Онлайн бизнес, фриланс, инвестиция — бәрі осында түсіндіріледі.
-    </p>
-  </div>
-
   <div class="card" id="contact">
     <h2>Байланыс</h2>
-    <p>Email: example@mail.com</p>
+    <p>
+      Бізбен байланысу үшін: example@mail.com<br>
+      NovaCash командасы әрдайым жаңа идеяларға ашық.
+    </p>
   </div>
 
 </div>
 
 <footer>
-  © 2026 CashFlow.kz
+  © 2026 NovaCash — Барлық құқықтар қорғалған
 </footer>
 
 </body>
